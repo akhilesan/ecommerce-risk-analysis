@@ -19,7 +19,7 @@ The focus goes beyond revenue to examine how discounts, product structure, custo
 - **72.0%** of loss-making orders originate from high-discount transactions
 - **17.6%** of sub-categories generate negative cumulative profit
 - **Top 10% of customers contribute 57.3% of total profit**
-- Monthly profit volatility reaches **~118%**, indicating instability
+- Monthly profit volatility reaches **~118%**, indicating unstable profit performance
 
 ## Tools & Technologies
 - Python
@@ -28,3 +28,22 @@ The focus goes beyond revenue to examine how discounts, product structure, custo
 - Jupyter Notebook
 
 ## Project Structure
+
+ecommerce-risk-analysis/
+├── data/
+├── images/
+├── notebooks/
+│   └── Ecommerce_Risk_Analysis.ipynb
+├── README.md
+├── requirements.txt
+└── .gitignore
+
+
+## How to Run
+1. Clone the repository  
+2. Install dependencies using `pip install -r requirements.txt`  
+3. Open the notebook in Jupyter and run all cells sequentially  
+
+## Key Takeaway
+High sales volume does not guarantee profitability.  
+Controlling discounts, addressing loss-making sub-categories, and protecting high-value customers are critical for achieving sustainable and predictable profit growth.
